@@ -1,0 +1,92 @@
+.aside-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside-sidebar{
+    width: 310px;
+    background-color: rgba(251, 251, 251, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+.aside-product{
+    width: 875px;
+}
+
+.aside-product-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.aside-product-link{
+    color: rgba(61, 61, 61, 1);
+    margin-right: 20px;
+}
+
+.aside-product-link:hover{
+    color: rgba(70, 163, 88, 1);
+    border-bottom: 3px solid rgba(70, 163, 88, 1);
+}
+
+.aside-select{
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Aside card */
+.aside-card-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.aside-card{
+    margin-top: 10px;
+    width: 258px;
+    height: 300px;
+    background-color: rgba(251, 251, 251, 1);
+}
+
+.card-text{
+    padding-top: 5px;
+    color: rgba(61, 61, 61, 1);
+    font-weight: 600;
+}
+
+.card-price{
+    color: rgba(70, 163, 88, 1) ;
+    font-weight: 600;
+}
+
+
+
+
+/* Pagination */
+
+.aside-pagination{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
