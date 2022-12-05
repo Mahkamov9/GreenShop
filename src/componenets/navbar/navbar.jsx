@@ -4,6 +4,7 @@ import "./navbar.css";
 import Logo from "../../assets/img/Logo.png";
 import Search from "../../assets/img/search.png";
 import Storage from "../../assets/img/storage.png";
+import Logout from "../../assets/img/logout.png";
 
 
 
@@ -24,7 +25,7 @@ const Navbar = () =>{
                     <div className="nav-btn-box">
                         <button className="nav-search"><img src={Search} alt=""/></button>
                         <button className="nav-search"><img src={Storage} alt="" /></button>
-                        <button className="nav-login"><img src={Search} alt="" />  <p>  Log in</p></button>
+                        <button className="nav-login"><img src={Logout} alt="" /><p>Log in</p></button>
                     </div>
                 </div>
             </div>

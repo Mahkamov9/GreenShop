@@ -1,0 +1,58 @@
+.header-box{
+    margin: 15px 0px; 
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.header-list{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.header-item{
+    margin: 25px;
+}
+
+
+.header-title{
+    color: rgba(61, 61, 61, 1);
+    letter-spacing: 10px;
+    font-weight: 100;   
+}
+
+.header-subtext{
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 0em;
+    color: rgba(61, 61, 61, 1);
+}
+
+.header-subtext-span{
+    color: rgba(70, 163, 88, 1);
+}
+
+
+.header-text{
+    color: rgba(61, 61, 61, 1);
+    width: 540px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+
+
+.header-link{
+    background-color: rgba(70, 163, 88, 1);
+    border-radius: 6px;
+    padding: 5px 15px;
+    color: #fff;
+}
+
+
+
+
+
+
+

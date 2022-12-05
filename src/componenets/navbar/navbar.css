@@ -2,7 +2,7 @@
     padding-top: 15px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 3px solid #46A358;
+    border-bottom: 1px solid #46A358;
 }
 
 .nav-list{
@@ -16,8 +16,7 @@
 .nav-item-link{
     font-size: 15px;
     font-weight: 400;
-    color: black;
-    transition: 0.3s;
+    color: rgba(61, 61, 61, 1);
 }
 
 .nav-item-link:hover{
@@ -44,4 +43,6 @@
     border: none;
     border-radius: 6px;
     background-color: #46A358;
+    color: #fff;
+    gap: 5px;
 }
