@@ -1,0 +1,47 @@
+.nav-box{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #46A358;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item{
+    margin: 10px 20px;
+}
+
+.nav-item-link{
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    transition: 0.3s;
+}
+
+.nav-item-link:hover{
+    border-bottom: 3px solid #46A358;
+}
+
+.nav-btn-box{
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-search{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    margin: 10px;        
+}
+
+.nav-login{
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #46A358;
+}
